@@ -1,0 +1,446 @@
+
+
+
+
+
+
+/*Website Template for Each Page*/
+
+
+body
+{
+	font-family: "Arial";
+	background-color: #336600;
+	color:black;
+}
+
+#container
+{
+	width:1200px;
+	margin: 0 auto;
+	background-color: white;
+	border:  0.1rem solid black;
+	height:100%;
+}
+
+header
+{
+	clear: both;
+	text-align: center;
+}
+
+/****************** NAV BAR **********************/
+
+nav ul
+{
+	list-style-type: none;
+	border-top:  0.1rem solid black;
+	border-bottom:  0.1rem solid black;
+	padding: 16px;
+	background-color: #336600;
+	text-align: center;
+}
+
+nav li
+{
+	display: inline;
+}
+
+nav
+{
+	font-size: 16px;
+}
+
+nav a
+{
+	text-decoration:none;
+	color: white;
+	margin-right: 0px;
+	padding: 16px;
+}
+
+nav a:hover
+{
+	color: black;
+	background-color: white;
+	border-left:  0.1rem solid black;
+	border-right:  0.1rem solid black;
+}
+
+
+nav a.current_page
+{
+	color: #1C2833;
+	background-color: white;
+	font-style: italic;
+	border-left:  0.1rem solid black;
+	border-right:  0.1rem solid black;
+}
+
+/********** DROP DOWN MENU ***************/
+
+.dropa 
+{
+	background-color: #336600;
+	color: white;
+	font-size: 16px;
+}
+
+
+.dropdown 
+{
+	position: relative;
+	display: inline-block;
+	padding: 0px;
+}
+
+
+.dropdown-content 
+{
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: black;
+	width: 86px;
+	border:  0.1rem solid black;
+}
+
+
+.dropdown-content a 
+{
+	color: black;
+	text-decoration: none;
+	display: block;
+	margin-top: 5px;
+	padding: 8px;
+}
+
+.dropdown-content a:hover
+{
+	color: white;
+	background-color: #336600;
+	border-left: none;
+	border-right: none;
+}
+
+
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+
+/**************** MAIN & FOOTER ***************************/
+
+main
+{
+	padding: 10px;
+	text-align: center;
+}
+
+.footer 
+{	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:40px;	
+	width:100%;
+	background:#336600;
+	display: inline;
+	border-top:   0.1rem solid black;
+	color: white;
+
+}
+
+.footer p 
+{
+	text-align: center;
+	font-style: italic;
+
+}
+
+
+
+/************** HOME PAGE *************/
+
+#p1
+{
+	float: right;
+	width:650px;
+	
+}
+
+#h1
+{
+	color: white;
+	font-size: 300%;
+	background: radial-gradient(black, #336600, black);
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+	
+	
+}
+
+#course1
+{
+	border-radius: 50%;
+}
+
+#shopimg
+{
+	position: relative;
+	left: 550px;
+	top: 200px
+}
+
+#info
+{
+	position: absolute;
+	left: 370px;
+	top: 1000px;
+	color: white;
+	font-style: italic;
+	font-size: 50%;
+}
+
+/***********SHOP PAGE***********/
+
+
+.shopbook
+{
+	background-color: white;
+	width: 450px;
+	margin-left:425px;
+	color:black;
+}
+
+.shopbook a
+{
+	text-decoration:none;
+	list-style-type: none;
+	padding-right: 5px;
+	color: black;
+}
+
+.shopmain
+{
+	color:red;
+}
+
+.shopprice
+{
+	float: left;
+	text-align: left;
+	padding-left: 300px;
+
+}
+
+h5
+{
+	color: black;
+	text-decoration:none;
+}
+
+/**************COURSE INFO PAGE*****************/
+
+#courseinfo
+{
+	display: inline-block;
+	width: 200px;
+	background-color: #336600;
+	border;
+	vertical-align:top;
+	color:white;
+	border-radius: 10%;
+	height: 250px;
+	border:   0.1rem solid black;
+}
+
+#teetime
+{
+	display: inline-block;
+	width: 200px;
+	background-color: #336600;
+	border;
+	vertical-align:top;
+	color:white;
+	border-radius: 10%;
+	height: 250px;
+	border:   0.1rem solid black;
+}
+
+#blank
+{
+	display: inline-block;
+	width: 200px;
+	background-color: white;
+}
+
+
+#rates
+{
+	width: 200px;
+	background-color: #336600;
+	color:white;
+	position: absolute;
+	left: 657px;
+	top:461px;
+	border:   0.1rem solid black;
+	border-top:none;
+	border-bottom:none;
+	height:600px;
+	
+	
+}
+
+#dress
+{
+	display: inline-block;
+	width: 200px;
+	background-color: #336600;
+	border;
+	vertical-align:top;
+	color:white;
+	border-radius: 10%;
+	height: 250px;
+	border:   0.1rem solid black;
+}
+
+#rent
+{
+	display: inline-block;
+	width: 200px;
+	background-color: #336600;
+	border;
+	vertical-align:top;
+	color:white;
+	border-radius: 10%;
+	height: 250px;
+	border:   0.1rem solid black;
+}
+
+#blank2
+{
+	display: inline-block;
+	width: 200px;
+	background-color: #336600;
+	border;
+	vertical-align:top;
+	color:white;
+	height: 250px;
+}
+
+
+/***************LESSONS PAGE**************/
+
+
+
+.video
+{
+	width: 26%;
+	height: 166px;
+	display: inline-block;
+	vertical-align:top;
+	text-align:center;
+	background-color: #336600;
+	margin-bottom:50px;
+	margin-right:10px;
+	margin-left:10px;
+	padding:10px;
+	border:   0.1rem solid black;
+	border-radius: 5%;
+	color:white;
+}
+
+#blank3
+{
+	display: inline-block;
+	height: 400px;
+	color:white;
+	width:10px;
+}
+
+#vid
+{
+position: relative;
+top: -100px;
+left:300px;
+}
+
+
+.video p
+{
+padding-top: 30px;
+}
+
+#pra
+{
+border-radius: 20%;
+}
+
+/*******************MEMBERS PAGE***************/
+
+
+.mmbpg
+{
+	position: relative;
+	z-index: 2;
+	color:white;
+}
+
+#zindex1
+{
+	background-color:#336600;
+	position: relative;
+	height: 700px;
+	top:-670px;
+	z-index:1;
+	border:   0.1rem solid black;
+	border-radius: 5%;
+	
+}
+
+.mmbpg h2
+{
+color: red;
+}
+
+/****************CONTACT US***************/
+
+#list ul
+{
+	list-style-type: none;
+	padding: 16px;
+	text-align: left;
+	color: black;
+
+}
+
+# list li
+{
+	display: inline;
+}
+
+h5
+{
+text-align:left;
+}
+
+#fb
+{
+	position: relative;
+	top:-200px;
+	left:400px;
+}
+
+#tw
+{
+	position: relative;
+	top:-200px;
+	left:400px;
+}
+
+#ins
+{
+	position: relative;
+	top:-200px;
+	left:400px;
+}
